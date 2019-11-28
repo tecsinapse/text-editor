@@ -88,5 +88,22 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecsinapse/text-editor.git"
+  },
+  "keywords": [
+    "tecsinapse",
+    "react",
+    "text",
+    "editor",
+    "ui-kit"
+  ],
+  "author": "TecSinapse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tecsinapse/text-editor/issues"
+  },
+  "homepage": "https://github.com/tecsinapse/text-editor#readme"
 }
