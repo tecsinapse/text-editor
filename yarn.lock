@@ -1766,7 +1766,7 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tecsinapse/es-utils@^6.0.10":
+"@tecsinapse/es-utils@^6.0.1":
   version "6.0.10"
   resolved "https://registry.yarnpkg.com/@tecsinapse/es-utils/-/es-utils-6.0.10.tgz#b17adad002d2993ab1bdd9785e10fa89fa00fb12"
   integrity sha512-OWtS/eqsQH1MVfO20jkjPR5kADrGOmX2tM2uaJLuQFwEOkgFx1VV8Ogi4Kl39x6vhz14a68xCps6T8uW5hgUOw==
@@ -1804,7 +1804,42 @@
     react-color "^2.17.0"
     recompose "^0.30.0"
 
-"@tinymce/tinymce-react@^3.0.1":
+"@tecsinapse/ui-kit@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@tecsinapse/ui-kit/-/ui-kit-3.3.1.tgz#d2ad933754d934c7566de4cb6e4f79f243b58e2a"
+  integrity sha512-39UMVgdrIF4tJXRLZtoqfXqgeyl/IvlUvIRjpLPM4+34BAP4cVQjEhvDTEikeKtKYM/3E6DMySKNv8Q2GpT2/w==
+  dependencies:
+    "@date-io/luxon" "^1.1.0"
+    "@material-ui/core" "^4.2.1"
+    "@material-ui/icons" "^4.2.1"
+    "@material-ui/pickers" "^3.1.2"
+    "@material-ui/styles" "^4.2.1"
+    "@mdi/js" "^3.0.39"
+    "@mdi/react" "^1.1.0"
+    "@tecsinapse/es-utils" "^6.0.1"
+    "@tecsinapse/material-ui-color-picker" "^4.3.0"
+    "@tinymce/tinymce-react" "^3.0.1"
+    classnames "^2.2.6"
+    clsx "^1.0.4"
+    graphql-hooks "^3.4.0"
+    luxon "^1.11.2"
+    material-ui-dots "^2.0.0"
+    material-ui-search-bar "1.0.0-beta.13"
+    prop-types "^15.6.2"
+    react-dropzone "^10.0.2"
+    react-select "^2.3.0"
+    react-sizeme "^2.5.2"
+    react-swipeable-views "^0.13.1"
+    react-text-mask "^5.4.3"
+    react-virtualized "^9.21.0"
+    react-window "^1.5.1"
+    text-mask-addons "^3.8.0"
+    text-mask-core "^5.1.2"
+    tinymce "^5.0.4"
+    tinymce-i18n "^19.5.15"
+    uniqid "^5.0.3"
+
+"@tinymce/tinymce-react@^3.0.1", "@tinymce/tinymce-react@latest":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@tinymce/tinymce-react/-/tinymce-react-3.3.2.tgz#044e21c54f123d0d85933e7e994a6ed20702297b"
   integrity sha512-5STyLVPtkvYwKrd5srXC++vrhoOhC8cx525PGVGOWIYK2Oqe5ey6o5s31Abg79XPJsCxiWU4daHBL5eaMBBhEg==
