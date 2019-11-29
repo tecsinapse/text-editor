@@ -1,20 +1,20 @@
 # Iniciando
 
-[![Build Status](https://travis-ci.org/tecsinapse/ui-kit.svg?branch=master)](https://travis-ci.org/tecsinapse/ui-kit)
+[![Build Status](https://travis-ci.org/tecsinapse/text-editor.svg?branch=master)](https://travis-ci.org/tecsinapse/text-editor)
 
 
 
-***@tecsinapse/ui-kit*** é uma biblioteca contendo diversos componentes para facilitar a vida do dev react ;)
+***@tecsinapse/text-editor*** é um componente React editor de texto WYSIWYG ;)
 
 ## Get Started
 
-Para acessar os documentos acesse nosso [storybook](https://github.com/tecsinapse/ui-kit)
+Para acessar os documentos acesse nosso [storybook](https://github.com/tecsinapse/text-editor)
 
 É recomendável utilizar uma versão `"node": ">=12.0.0"` devido a performance de build superior
 
 Para add em seu projeto:
 ```
-    yarn add @tecsinapse/ui-kit
+    yarn add @tecsinapse/text-editor
 ```
 
 E adicione o ThemeProvider em seu projeto como abaixo:
@@ -25,10 +25,11 @@ import ReactDOM from "react-dom";
 import App from "./components/App/App";
 import * as serviceWorker from "./serviceWorker";
 import { ThemeProvider } from "@tecsinapse/ui-kit";
+import { EditText } from "@tecsinapse/text-editor";
 
 ReactDOM.render(
   <ThemeProvider variant="black">
-    <App />
+    <EditText />
   </ThemeProvider>,
 
   document.getElementById("root")
@@ -51,7 +52,7 @@ Para rodar o app de exemplo, fazer o link da lib na pasta de exemplo após execu
 ```
     yarn build && yarn link
     cd example/
-    yarn link @tecsinapse/ui-kit
+    yarn link @tecsinapse/text-editor
     yarn install && yarn start
 ```
 
