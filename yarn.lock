@@ -1804,7 +1804,7 @@
     react-color "^2.17.0"
     recompose "^0.30.0"
 
-"@tecsinapse/ui-kit@^3.3.1":
+"@tecsinapse/ui-kit@^3.0.0-beta.2":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@tecsinapse/ui-kit/-/ui-kit-3.3.1.tgz#d2ad933754d934c7566de4cb6e4f79f243b58e2a"
   integrity sha512-39UMVgdrIF4tJXRLZtoqfXqgeyl/IvlUvIRjpLPM4+34BAP4cVQjEhvDTEikeKtKYM/3E6DMySKNv8Q2GpT2/w==
@@ -1839,7 +1839,7 @@
     tinymce-i18n "^19.5.15"
     uniqid "^5.0.3"
 
-"@tinymce/tinymce-react@^3.0.1":
+"@tinymce/tinymce-react@^3.0.1", "@tinymce/tinymce-react@^3.3.2":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@tinymce/tinymce-react/-/tinymce-react-3.3.2.tgz#044e21c54f123d0d85933e7e994a6ed20702297b"
   integrity sha512-5STyLVPtkvYwKrd5srXC++vrhoOhC8cx525PGVGOWIYK2Oqe5ey6o5s31Abg79XPJsCxiWU4daHBL5eaMBBhEg==
