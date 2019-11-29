@@ -1,17 +1,35 @@
 {
   "name": "@tecsinapse/text-editor",
   "description": "TecSinapse Text Editor",
-  "version": "0.0.2",
+  "homepage": "https://github.com/tecsinapse/text-editor#readme",
+  "version": "0.0.3",
   "main": "dist/index.cjs.js",
   "module": "build/index.js",
+  "author": {
+    "name": "TecSinapse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecsinapse/text-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tecsinapse/text-editor/issues"
+  },
+  "keywords": [
+    "editor",
+    "react",
+    "tecsinapse",
+    "text",
+    "ui-kit"
+  ],
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@material-ui/styles": "^4.2.1",
     "@tecsinapse/ui-kit": "^3.0.0-beta.2",
+    "@tinymce/tinymce-react": "^3.3.2",
     "prop-types": "^15.6.2",
     "tinymce": "^5.0.4",
-    "tinymce-i18n": "^19.5.15",
-    "@tinymce/tinymce-react": "^3.3.2"
+    "tinymce-i18n": "^19.5.15"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -71,6 +89,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook -s ./storybook-public",
     "storybook:build": "build-storybook -c .storybook -o docs/"
   },
+  "license": "MIT",
   "husky": {
     "hooks": {
       "post-commit": "git update-index --again",
@@ -88,22 +107,5 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tecsinapse/text-editor.git"
-  },
-  "keywords": [
-    "tecsinapse",
-    "react",
-    "text",
-    "editor",
-    "ui-kit"
-  ],
-  "author": "TecSinapse",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tecsinapse/text-editor/issues"
-  },
-  "homepage": "https://github.com/tecsinapse/text-editor#readme"
+  "sideEffects": false
 }
