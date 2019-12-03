@@ -2,7 +2,7 @@
   "name": "@tecsinapse/text-editor",
   "description": "TecSinapse Text Editor",
   "homepage": "https://github.com/tecsinapse/text-editor#readme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.cjs.js",
   "module": "build/index.js",
   "author": {
@@ -87,7 +87,7 @@
     "dev": "rollup -c -w",
     "start": "yarn install && yarn storybook",
     "storybook": "start-storybook -p 9001 -c .storybook -s ./storybook-public",
-    "storybook:build": "build-storybook -c .storybook -o docs/ && cp ./storybook-public/* ./docs/ -r"
+    "storybook:build": "build-storybook -c .storybook -o docs/"
   },
   "license": "MIT",
   "husky": {
