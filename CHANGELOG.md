@@ -1,3 +1,11 @@
+## <small>1.0.3 (2019-12-03)</small>
+
+* Fixing css style of storybook ([e7ba8ca](https://github.com/tecsinapse/text-editor/commit/e7ba8ca))
+* Including tiny css to docs folder ([03ab224](https://github.com/tecsinapse/text-editor/commit/03ab224))
+* Rollback ([ccf39be](https://github.com/tecsinapse/text-editor/commit/ccf39be))
+
+
+
 ## <small>1.0.1 (2019-12-03)</small>
 
 * Updated ui-kit version ([6ea6fbb](https://github.com/tecsinapse/text-editor/commit/6ea6fbb))
