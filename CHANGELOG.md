@@ -1,3 +1,9 @@
+## <small>1.0.2 (2019-12-03)</small>
+
+* Including tiny css to docs folder ([03ab224](https://github.com/tecsinapse/text-editor/commit/03ab224))
+
+
+
 ## <small>1.0.1 (2019-12-03)</small>
 
 * Updated ui-kit version ([6ea6fbb](https://github.com/tecsinapse/text-editor/commit/6ea6fbb))
