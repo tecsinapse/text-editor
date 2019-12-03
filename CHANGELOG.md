@@ -1,3 +1,9 @@
+## <small>1.0.1 (2019-12-03)</small>
+
+* Updated ui-kit version ([6ea6fbb](https://github.com/tecsinapse/text-editor/commit/6ea6fbb))
+
+
+
 ## 1.0.0 (2019-11-29)
 
 
