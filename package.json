@@ -87,7 +87,7 @@
     "dev": "rollup -c -w",
     "start": "yarn install && yarn storybook",
     "storybook": "start-storybook -p 9001 -c .storybook -s ./storybook-public",
-    "storybook:build": "build-storybook -c .storybook -o docs/"
+    "storybook:build": "build-storybook -c .storybook -s ./storybook-public -o docs/"
   },
   "license": "MIT",
   "husky": {
