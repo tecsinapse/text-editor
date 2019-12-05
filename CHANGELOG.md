@@ -1,3 +1,9 @@
+## <small>1.0.4 (2019-12-05)</small>
+
+* Adding new instructions how to setup editor (with css) ([bad0331](https://github.com/tecsinapse/text-editor/commit/bad0331))
+
+
+
 ## <small>1.0.3 (2019-12-03)</small>
 
 * Fixing css style of storybook ([e7ba8ca](https://github.com/tecsinapse/text-editor/commit/e7ba8ca))
