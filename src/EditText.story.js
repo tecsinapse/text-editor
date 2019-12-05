@@ -8,6 +8,10 @@ storiesOf(`Text Editor`, module)
   .addDecorator(story => <DivFlex>{story()}</DivFlex>)
   .add('Editor', () => (
     <div style={{ width: '700px', height: '500px' }}>
-      <EditText onChange={e => e /* console.log(e) */} error="" />
+      <EditText
+        onChange={e => e /* console.log(e) */}
+        error=""
+        skinUrl="/text-editor/oxide"
+      />
     </div>
   ));
