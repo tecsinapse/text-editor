@@ -1,25 +1,8 @@
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.story\.js?$/,
-        loaders: [require.resolve('@storybook/source-loader')],
-        enforce: 'pre',
-      },
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
-        ],
-      },
-    ],
-  },
+module.exports = async ({ config }) => {
+  config.module.rules.push({
+    test: /\.story\.js?$/,
+    loaders: [require.resolve('@storybook/source-loader')],
+    enforce: 'pre',
+  });
+  return config;
 };

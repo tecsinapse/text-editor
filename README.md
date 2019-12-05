@@ -8,7 +8,7 @@
 
 ## Get Started
 
-Para acessar os documentos acesse nosso [storybook](https://github.com/tecsinapse/text-editor)
+Para acessar os documentos acesse nosso [storybook](https://tecsinapse.github.io/text-editor)
 
 É recomendável utilizar uma versão `"node": ">=12.0.0"` devido a performance de build superior
 
@@ -34,6 +34,13 @@ ReactDOM.render(
 
   document.getElementById("root")
 );
+```
+
+É necessário especificar a propriedade `skinUrl` do componente para apontar o local da folha de estilos do editor.
+Skins podem ser encontradas na pasta `node-modules/tinymce/skins/ui` e copiadas para a pasta de assets públicos de sua aplicação.
+
+```
+    <EditText skinUrl="/text-editor/oxide" />
 ```
 
 ### Desenvolvimento
