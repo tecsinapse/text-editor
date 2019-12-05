@@ -1,0 +1,40 @@
+import { Meta, Story, Props, Preview, Source } from '@storybook/addon-docs/blocks';
+import { EditText } from './EditText';
+import { DivFlex } from '@tecsinapse/ui-kit/build/withFlexCenter';
+import { Link } from '@storybook/design-system';
+
+<Meta title="Edit Text" component={EditText}
+  decorators={[
+    story =>
+      <DivFlex>
+        <div style={{ width: '700px', height: '500px' }}>
+          {story()}
+        </div>
+      </DivFlex>]}
+/>
+
+# Text Editor
+
+The Text Editor component can receive the following props:
+
+<Props of={EditText} />
+
+It's necessary to specify the prop `skinUrl` of component to point the location of the editor stylesheet.
+Skins can be found on folder `node-modules/tinymce/skins/ui` and copied to public asset folder of your application.
+You can check our <Link href="https://github.com/tecsinapse/text-editor/tree/master/storybook-public/oxide">github</Link> to view how the folder is mounted according to code snippet below.
+
+# Code snippets
+Here you can check the code snippet for the story.
+
+## Editor
+
+<Story name="Editor" parameters={{ docs: { disable: true }}}>
+  <EditText
+      onChange={e => e}
+      error=""
+      skinUrl="/text-editor/oxide"
+  />
+</Story>
+
+<Source id="." />
+
