@@ -1,3 +1,12 @@
+## <small>1.0.5 (2019-12-06)</small>
+
+* Adding new instructions how to setup editor (with css) ([0b42fff](https://github.com/tecsinapse/text-editor/commit/0b42fff))
+* Updated deps ([4b77e6b](https://github.com/tecsinapse/text-editor/commit/4b77e6b))
+* Updated deps ([1dbd25f](https://github.com/tecsinapse/text-editor/commit/1dbd25f))
+* Updating stories ([2dd06db](https://github.com/tecsinapse/text-editor/commit/2dd06db))
+
+
+
 ## <small>1.0.4 (2019-12-05)</small>
 
 * Adding new instructions how to setup editor (with css) ([bad0331](https://github.com/tecsinapse/text-editor/commit/bad0331))
