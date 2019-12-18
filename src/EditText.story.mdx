@@ -1,16 +1,24 @@
-import { Meta, Story, Props, Preview, Source } from '@storybook/addon-docs/blocks';
+import {
+  Meta,
+  Story,
+  Props,
+  Preview,
+  Source,
+} from '@storybook/addon-docs/blocks';
 import { EditText } from './EditText';
 import { DivFlex } from '@tecsinapse/ui-kit/build/withFlexCenter';
 import { Link } from '@storybook/design-system';
 
-<Meta title="Edit Text" component={EditText}
+<Meta
+  title="Edit Text"
+  component={EditText}
   decorators={[
-    story =>
+    story => (
       <DivFlex>
-        <div style={{ width: '700px', height: '500px' }}>
-          {story()}
-        </div>
-      </DivFlex>]}
+        <div style={{ width: '700px', height: '500px' }}>{story()}</div>
+      </DivFlex>
+    ),
+  ]}
 />
 
 # Text Editor
@@ -24,26 +32,24 @@ Skins can be found on folder `node-modules/tinymce/skins/ui` and copied to publi
 You can check our <Link href="https://github.com/tecsinapse/text-editor/tree/master/storybook-public/oxide">github</Link> to view how the folder is mounted according to code snippet below.
 
 # Code snippets
+
 Here you can check the code snippet for the story.
 
 ## Editor
 
-<Story name="Editor" parameters={{ docs: { disable: true }}}>
-  <EditText
-      onChange={e => e}
-      skinUrl="/text-editor/oxide"
-  />
+<Story name="Editor" parameters={{ docs: { disable: true } }}>
+  <EditText onChange={e => e} skinUrl="/text-editor/oxide" />
 </Story>
 
 <Source id="edit-text--editor" />
 
 ## With error
 
-<Story name="With error" parameters={{ docs: { disable: true }}}>
+<Story name="With error" parameters={{ docs: { disable: true } }}>
   <EditText
-      onChange={e => e}
-      error="Insufficient characters"
-      skinUrl="/text-editor/oxide"
+    onChange={e => e}
+    error="Insufficient characters"
+    skinUrl="/text-editor/oxide"
   />
 </Story>
 
@@ -51,11 +57,11 @@ Here you can check the code snippet for the story.
 
 ## Initial value
 
-<Story name="Initial value" parameters={{ docs: { disable: true }}}>
+<Story name="Initial value" parameters={{ docs: { disable: true } }}>
   <EditText
-      onChange={e => e}
-      initialValue="Component testing"
-      skinUrl="/text-editor/oxide"
+    onChange={e => e}
+    initialValue="Component testing"
+    skinUrl="/text-editor/oxide"
   />
 </Story>
 
