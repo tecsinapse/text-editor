@@ -1,3 +1,13 @@
+## 1.1.0 (2020-01-07)
+
+* Adding support to mdx ([626f916](https://github.com/tecsinapse/text-editor/commit/626f916))
+* Update README.md ([be9cb68](https://github.com/tecsinapse/text-editor/commit/be9cb68))
+* Updating deps ([e66f111](https://github.com/tecsinapse/text-editor/commit/e66f111))
+* Updating deps ([feaa68a](https://github.com/tecsinapse/text-editor/commit/feaa68a))
+* Updating SB ([9ed92fa](https://github.com/tecsinapse/text-editor/commit/9ed92fa))
+
+
+
 ## <small>1.0.5 (2019-12-06)</small>
 
 * Adding new instructions how to setup editor (with css) ([0b42fff](https://github.com/tecsinapse/text-editor/commit/0b42fff))
