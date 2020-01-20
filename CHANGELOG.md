@@ -1,3 +1,11 @@
+## <small>1.1.1 (2020-01-20)</small>
+
+* Improving props table ([c709aaf](https://github.com/tecsinapse/text-editor/commit/c709aaf))
+* Updating deps ([dc88202](https://github.com/tecsinapse/text-editor/commit/dc88202))
+* Updating deps ([8669069](https://github.com/tecsinapse/text-editor/commit/8669069))
+
+
+
 ## 1.1.0 (2020-01-07)
 
 * Adding support to mdx ([626f916](https://github.com/tecsinapse/text-editor/commit/626f916))
