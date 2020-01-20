@@ -115,26 +115,38 @@ EditText.defaultProps = {
   uploadFunc: undefined,
   hasImage: false,
   hasImageButton: true,
-  skinUrl: '/',
   toolbarDrawer: '',
   variant: 'simple',
   height: 200,
 };
 
 EditText.propTypes = {
+  /** Change event handler */
   onChange: PropTypes.func,
   initialValue: PropTypes.string,
+  /** URL to upload images */
   uploadURL: PropTypes.string,
+  /** Disable editor */
   disabled: PropTypes.bool,
+  /** Error message */
   error: PropTypes.string,
+  /** Languge to render editor */
   language: PropTypes.oneOf(['pt', 'en', 'es']),
+  /** Show menu bar */
   showMenu: PropTypes.bool,
+  /** Function to handle uploads */
   uploadFunc: PropTypes.func,
+  /** Enable button tp paste images from web */
   hasImage: PropTypes.bool,
+  /** Allow to paste images from web */
   hasImageButton: PropTypes.bool,
-  skinUrl: PropTypes.string,
+  /** URL location of editor skin */
+  skinUrl: PropTypes.string.isRequired,
+  /** Toolbar drawer style */
   toolbarDrawer: PropTypes.oneOf(['', 'floating', 'sliding']),
+  /** Editor variant */
   variant: PropTypes.oneOf(['simple', 'advanced']),
+  /** Fixed height of editor */
   height: PropTypes.number,
 };
 
