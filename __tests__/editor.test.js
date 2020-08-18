@@ -6,9 +6,9 @@ import { EditText } from '../src/EditText';
 test('Render Editor', () => {
   const { container } = render(
     <EditText
-      onChange={e => e}
+      onChange={(e) => e}
       error="Erro no editor"
-      skinUrl="/text-editor/oxide"
+      skinUrl="/text-editor/skins/oxide"
     />
   );
   const errorMessage = container.querySelector('p');

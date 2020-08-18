@@ -6,7 +6,7 @@ import {
   Source,
 } from '@storybook/addon-docs/blocks';
 import { EditText } from './EditText';
-import { DivFlex } from '@tecsinapse/ui-kit/build/withFlexCenter';
+import { DivFlex } from '@tecsinapse/ui-kit';
 
 <Meta
   title="Edit Text"
@@ -37,7 +37,7 @@ Here you can check the code snippet for the story.
 ## Editor
 
 <Story name="Editor" parameters={{ docs: { disable: true } }}>
-  <EditText onChange={e => e} skinUrl="/text-editor/oxide" />
+  <EditText onChange={e => e} skinUrl="/text-editor/skins/oxide" />
 </Story>
 
 <Source id="edit-text--editor" />
@@ -48,7 +48,7 @@ Here you can check the code snippet for the story.
   <EditText
     onChange={e => e}
     error="Insufficient characters"
-    skinUrl="/text-editor/oxide"
+    skinUrl="/text-editor/skins/oxide"
   />
 </Story>
 
@@ -60,7 +60,7 @@ Here you can check the code snippet for the story.
   <EditText
     onChange={e => e}
     initialValue="Component testing"
-    skinUrl="/text-editor/oxide"
+    skinUrl="/text-editor/skins/oxide"
   />
 </Story>
 
