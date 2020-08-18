@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - 12
+  - 14
 script:
   - yarn storybook:build
   - yarn build
   - yarn test
 
 cache:
-  yarn: true
+  yarn: false
 deploy:
   - provider: pages
     skip-cleanup: true

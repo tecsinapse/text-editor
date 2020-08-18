@@ -42,6 +42,8 @@ Skins podem ser encontradas na pasta `node-modules/tinymce/skins/ui` e copiadas 
     <EditText skinUrl="/text-editor/oxide" />
 ```
 
+Também é necessário copiar o conteúdo da pasta `storybook-public` para a raiz da pasta pública de sua aplicação.
+
 ### Desenvolvimento
 
 Para rodar localmente
