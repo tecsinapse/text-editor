@@ -1,3 +1,16 @@
+## 1.3.0 (2020-08-18)
+
+* Atualizando dependencias ([bc72702](https://github.com/tecsinapse/text-editor/commit/bc72702))
+* Atualizando export rollup.config.js ([4faed32](https://github.com/tecsinapse/text-editor/commit/4faed32))
+* Atualizando readme e build ([8fe4338](https://github.com/tecsinapse/text-editor/commit/8fe4338))
+* Bump elliptic from 6.5.1 to 6.5.3 ([83b6673](https://github.com/tecsinapse/text-editor/commit/83b6673))
+* Bump https-proxy-agent from 2.2.2 to 2.2.4 ([f6e52de](https://github.com/tecsinapse/text-editor/commit/f6e52de))
+* Bump lodash from 4.17.15 to 4.17.19 ([c587e44](https://github.com/tecsinapse/text-editor/commit/c587e44))
+* Bump npm-registry-fetch from 4.0.1 to 4.0.5 ([2292134](https://github.com/tecsinapse/text-editor/commit/2292134))
+* Bump websocket-extensions from 0.1.3 to 0.1.4 ([c7f47cc](https://github.com/tecsinapse/text-editor/commit/c7f47cc))
+
+
+
 ## 1.2.0 (2020-01-22)
 
 * @tecsinapse/ui-kit@4.0.0 ([aa77f18](https://github.com/tecsinapse/text-editor/commit/aa77f18))
