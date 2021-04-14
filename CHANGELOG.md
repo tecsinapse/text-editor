@@ -1,3 +1,9 @@
+## <small>1.3.2 (2021-04-14)</small>
+
+* fix: fixing error build ([3a3555d](https://github.com/tecsinapse/text-editor/commit/3a3555d))
+
+
+
 ## <small>1.3.1 (2021-04-14)</small>
 
 * upgrade: lib upgrade ([1433708](https://github.com/tecsinapse/text-editor/commit/1433708))
