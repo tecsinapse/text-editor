@@ -92,6 +92,11 @@ export default [
             'resolveObj',
             'isNotUndefOrNull',
           ],
+          'node_modules/@material-ui/utils/node_modules/react-is/index.js': [
+            'ForwardRef',
+            'isFragment',
+            'Memo',
+          ],
         },
       }),
 
