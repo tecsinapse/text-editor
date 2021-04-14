@@ -1,3 +1,9 @@
+## <small>1.3.1 (2021-04-14)</small>
+
+* upgrade: lib upgrade ([1433708](https://github.com/tecsinapse/text-editor/commit/1433708))
+
+
+
 ## 1.3.0 (2020-08-18)
 
 * Atualizando dependencias ([bc72702](https://github.com/tecsinapse/text-editor/commit/bc72702))
