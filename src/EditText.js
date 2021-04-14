@@ -26,7 +26,7 @@ const useStyle = makeStyles(theme => ({
 
 export const EditText = ({
   onChange,
-  initialValue,
+  value,
   uploadURL,
   disabled,
   error,
@@ -40,6 +40,7 @@ export const EditText = ({
   toolbarDrawer,
   variant,
   height,
+  ...props
 }) => {
   const classes = useStyle();
 
@@ -80,7 +81,7 @@ export const EditText = ({
       <div className={error ? classes.editorError : null}>
         <Editor
           disabled={disabled}
-          initialValue={initialValue}
+          value={value}
           init={{
             plugins: plugins.join(' '),
             toolbar_drawer: toolbarDrawer,
@@ -95,8 +96,9 @@ export const EditText = ({
             branding: false,
             height,
           }}
-          onChange={onChange}
+          onEditorChange={onChange}
           textareaName={name}
+          {...props}
         />
       </div>
       {error && <FormHelperText error>{error}</FormHelperText>}
@@ -106,7 +108,7 @@ export const EditText = ({
 
 EditText.defaultProps = {
   onChange: null,
-  initialValue: '',
+  value: '',
   uploadURL: undefined,
   disabled: false,
   error: '',
@@ -123,7 +125,7 @@ EditText.defaultProps = {
 EditText.propTypes = {
   /** Change event handler */
   onChange: PropTypes.func,
-  initialValue: PropTypes.string,
+  value: PropTypes.string,
   /** URL to upload images */
   uploadURL: PropTypes.string,
   /** Disable editor */
