@@ -1,3 +1,9 @@
+## 2.0.0 (2021-04-14)
+
+* feat: text editor controlled input ([59e8189](https://github.com/tecsinapse/text-editor/commit/59e8189))
+
+
+
 ## <small>1.3.2 (2021-04-14)</small>
 
 * fix: fixing error build ([3a3555d](https://github.com/tecsinapse/text-editor/commit/3a3555d))
