@@ -1,3 +1,10 @@
+## <small>2.0.1 (2021-04-19)</small>
+
+* update: lib version ([12959a1](https://github.com/tecsinapse/text-editor/commit/12959a1))
+* Bump bl from 3.0.0 to 3.0.1 ([e835033](https://github.com/tecsinapse/text-editor/commit/e835033))
+
+
+
 ## 2.0.0 (2021-04-14)
 
 * feat: text editor controlled input ([59e8189](https://github.com/tecsinapse/text-editor/commit/59e8189))
