@@ -40,6 +40,7 @@ export const EditText = ({
   toolbarDrawer,
   variant,
   height,
+  iconsUrl,
   ...props
 }) => {
   const classes = useStyle();
@@ -95,6 +96,7 @@ export const EditText = ({
             images_upload_handler: uploadFunc,
             branding: false,
             height,
+            icons_url: iconsUrl,
           }}
           onEditorChange={onChange}
           textareaName={name}
@@ -144,6 +146,8 @@ EditText.propTypes = {
   hasImageButton: PropTypes.bool,
   /** URL location of editor skin */
   skinUrl: PropTypes.string.isRequired,
+  /** URL location of icons */
+  iconsUrl: PropTypes.string,
   /** Toolbar drawer style */
   toolbarDrawer: PropTypes.oneOf(['', 'floating', 'sliding']),
   /** Editor variant */
